@@ -1,0 +1,72 @@
+
+ body {
+    background: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1522139137660-4248e04955b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80'); 
+    background-size: cover;  
+ }
+ form{
+   border-radius: 8%;
+   display: flex;
+   justify-content: center;
+ }
+fieldset{
+   border: 1; 
+   border-radius: 10px;
+   background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+
+}
+input{
+   opacity: 70%;
+   border-radius: 5px;
+   height: 30px;
+   border: black;
+   background-color: white;
+}
+select{
+   border-radius: 10px;
+}
+@font-face {
+   font-family: "Font perso";
+   src: url(Font/cardo/cardo-bold.woff);
+}
+#Logo1{
+   width: 150px  ;height: 150px ;
+   border-radius: 50%;
+
+}
+footer{
+   display: flex;
+   justify-content: center;
+}
+.Text {
+   color: black;
+   font-size: large;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 10;
+}
+main{
+   justify-content: space-around;
+   text-align-last: center;
+}
+#Valider{
+   background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+   border: 1;
+}
+#Title{
+   display: flex;
+   justify-content: center;
+}
+h1{
+   font-weight: 100;
+   background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+   border-radius: 100px;
+}
+
+#Yeux{
+   display: flex;
+   justify-content: center;
+}
+#head {
+   width: 200px;
+   height: 30px;
+}

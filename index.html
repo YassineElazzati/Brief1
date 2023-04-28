@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription Yassine</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <main>
+        <h1 id="Title">
+            Formulaire D'Inscription
+        </h1>
+        <img id="Logo1" src="Yassine.png" alt="", >
+    </main>
+    <form>
+        <fieldset id="Name">
+        <div class="Text">
+            <label for="name"><i class="fa-solid fa-user-minus"></i>  Nom :</label>
+            <input type="text" id="name" name="user_name" placeholder="El Azzati ">
+        </div>
+        <br>
+        <div class="Text">
+            <label for="lastName"><i class="fa-solid fa-user-minus"></i> Prenom&nbsp;:</label>
+            <input type="text" id="lasName" name="user_lasName" placeholder="Yassine">
+        </div>
+            <br>
+        <div class="Text" >
+            <label for="Age"><i class="fa-solid fa-user-minus"></i> Age&nbsp;:</label>
+            <input type="number" id="Age" name="user_Age" max="150" required >
+        </div>
+        <div>
+            <i class="fa-solid fa-person-half-dress"></i> 
+        Sexe : <input type="radio" name="sexe" value="Homme" checked>Homme
+                <input type="radio" name="sexe" value="Femme"> Femme
+        </div>
+        <br>
+        <div class="Text">
+            <i class="fa-solid fa-eye"></i>  Couleur des Yeux : 
+        </div>
+        <br>            
+        <div class="Text">
+            <input type="color" id="head" name="head"
+           value= #> 
+        </div>
+    <label for="head"></label>
+        </div>
+        </fieldset>
+                <br>
+        <fieldset id="Coordonnées">
+
+        <div class="Text" >
+                <br>  
+            <label>
+            <i class="fa-solid fa-envelope"></i> Email Address
+            <input type="email" name="email-address" id="email" placeholder="name@Outlook.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required >
+          </label> 
+        </div>
+      <br>
+        <div class="Text" >
+            <label for="Adress postal"><i class="fa-solid fa-house"></i> Adress postal &nbsp;:</label>
+            <input type="text" id="Adress postal" name="user_AdressPostal" placeholder="Lille"
+            >
+        </div>
+        <br>
+        <div class="Text" >
+            <label for="Code postal"> <i class="fa-solid fa-house"></i>  Code postal &nbsp;:</label>
+            <input type="text" id="Code postal" name="user_CodePostal" placeholder="59000" maxlength="5"  >
+        </div class="Text" >  
+        <br>
+        <div class="Text" >
+            <label for="Ville"><i class="fa-solid fa-city"></i> Ville :</label>
+            <input type="text" id="Ville" name="user_ville"placeholder="Lille" >
+            
+        </fieldset>
+        </div>
+        <fieldset id="Autres">
+            <div class="Text">
+                <i class="fa-solid fa-calendar-days"></i> Date de disponibilité  
+                <input type="date" name="birthday">
+                </div>
+                <br>
+        <div class="Text" >
+                <label for="Metier"> <i class="fa-solid  fa-business-time"></i> Metier:</label>
+                <select id="Metier" name="Metier">
+                    <option value="" selected disabled hidden>Choisissez</option>
+                  <option value="DevWeb">DevWeb</option>
+                  <option value="Taxi">Taxi</option>
+                  <option value="Cuisinier">Cuisinier</option>
+                  <option value="Coach">Coach</option>
+                </select>
+            </div>
+            <div class="Text">
+                <form action="/action_page.php">
+                    <input type="file" id="myFile" name="filename">
+                    <input type="submit">
+                  </form>
+            </div>
+            <br>
+            <div class="Text">
+                <label for="Technos"> <i</i> Technos Maitrise:</label>
+                <select id="Metier" name="Metier">
+                    <option value="" selected disabled hidden>Front</option>
+                  <option value="html">Html</option>
+                  <option value="CSS">Css</option>
+                  <option value="Js">Js</option>
+                  <option value="React">React</option>
+                  <option value="Angular">Angular</option>
+                  <option value="Vue">Vue</option>
+                </select>
+                <select id="Metier" name="Metier">
+                    <option value="" selected disabled hidden>Back</option>
+                  <option value="Java">Java</option>
+                  <option value="Php">Php</option>
+                  <option value="Laravel">laravel</option>
+                  <option value="Symfony">Symfony</option>
+                  <option value="Nodejs">Nodejs</option>
+                  <option value="Ruby">Ruby</option>
+                </select>
+            </div>
+        <div class="Text" >
+                <label for="nationality"><i class="fa-solid fa-flag"></i>  Nationalité:</label>
+                <select id="nationality" name="nationality">
+                    <option value="" selected disabled hidden>Choisissez</option>
+                  <option value="Française">Française</option>
+                  <option value="Allemande">Allemande</option>
+                  <option value="Algérienne">Algérienne</option>
+                  <option value="Bulgare">Bulgare</option>
+                </select>
+        </div>
+        <br>
+        <div class="Text" >
+            <i class="fa-solid fa-calendar-days"></i> Date de naissance 
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <div class="Text" >
+                <label for="Pays de naissance"><i class="fa-solid fa-globe"></i> Pays de naissance:</label>
+                <select id="Pays de naissance" name="Pays de naissance">
+                    <option value="" selected disabled hidden>Choisissez</option>
+                  <option value="Française">Françe</option>
+                  <option value="Allemande">Allemagne</option>
+                  <option value="Algérienne">Algérie</option>
+                  <option value="Bulgare">Bulgarie</option>
+                </select>
+        </div>
+        <br>
+        <div class="Text" >
+            <label for="Numéro de sécurité social"><i class="fa-solid fa-notes-medical"></i> Numéro de sécurité social &nbsp;:</label>
+            <input type="text" id="Numéro de sécurité social" name="user_NuméroDeSécuritéSocial" maxlength="15" pattern="[12][ \.\-]?[0-9]{2}[ \.\-]?(0[1-9]|[1][0-2])[ \.\-]?([0-9]{2}|2A|2B)[ \.\-]?[0-9]{3}[ \.\-]?[0-9]{3}[ \.\-]?[0-9]{2}" required>
+        </div>
+        <br>
+        <div class="Text" >
+            <label for="Numéro du passeport"> <i class="fa-solid fa-passport"></i> Numéro du passeport&nbsp;:</label>
+            <input type="text" id="Numéro du passeport" name="user_NuméroDuPasseport" maxlength="15">
+        </div>
+        <br>
+        <div class="Text" >
+            <i class="fa-solid fa-calendar-days"></i>
+            Date de delivrance du passeport
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <div class="Text" >
+            <i class="fa-solid fa-calendar-days"></i>
+            Date de validité du passeport
+            <input type="date" name="birthday">
+        
+        </div>
+    </fieldset>
+    </form>
+    <footer>
+        <input id="Valider" type="submit" name="Valider" value="Valider"> 
+    </footer>
+</body>
+</html>
